@@ -1,6 +1,8 @@
 /*
     Bamboo piece measurements
     8.90x2.23
+    
+    NOTE: Print with a corner point down + support for best results.
 */
 
 BAMBOO_WIDTH = 9;
