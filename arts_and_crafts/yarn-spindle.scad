@@ -1,0 +1,19 @@
+FLANGE_DIAMETER = 100;
+FLANGE_HEIGHT = 5;
+SPINDLE_DIAMETER = 20;
+SPINDLE_HEIGHT = 150;
+POST_DIAMETER =15;
+
+difference(){
+    union(){
+        cylinder(r=FLANGE_DIAMETER/2,h=FLANGE_HEIGHT);
+        cylinder(r=SPINDLE_DIAMETER/2, h=SPINDLE_HEIGHT);
+    }
+    
+    cylinder(r=POST_DIAMETER/2,h=SPINDLE_HEIGHT+(FLANGE_HEIGHT*2));
+}
+
+// top flange
+translate([FLANGE_DIAMETER*1.05,0,0]){
+    cylinder(r=FLANGE_DIAMETER/2,h=FLANGE_HEIGHT);
+}
