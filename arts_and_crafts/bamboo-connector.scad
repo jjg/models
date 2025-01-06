@@ -8,7 +8,7 @@
 BAMBOO_WIDTH = 9;
 BAMBOO_HEIGHT = 2.5;
 
-L = BAMBOO_WIDTH * 1.5;
+L = BAMBOO_WIDTH * 2;//1.5;
 W = L;
 H = W;
 
