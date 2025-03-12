@@ -1,3 +1,6 @@
+# MOVED TO CODEBERG
+[https://codeberg.org/jjg/models](https://codeberg.org/jjg/models)
+
 # models
 
 I'll be moving all of the 3D models I design to this repository.  I expect them to be in OpenSCAD format, but there may be some exceptions for the rare model I've designed in something else.
